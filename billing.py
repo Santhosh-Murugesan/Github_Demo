@@ -10,12 +10,29 @@ def process_payment(amount, card_number, expiration_date, cvv):
 
 def generate_invoice(amount, username):
     # Placeholder for invoice generation logic
-    invoice = f"Invoice {username}: ${amount:.2f}"
+    invoice = f"Invoice for {username}: ${amount:.2f}"
     return invoice  
 
 def refund_payment(transaction_id): 
     # Placeholder for refund processing logic
     if transaction_id:
-        return False
-    else:
         return True
+    else:
+        return False    
+    
+def validate_card(card_number, expiration_date, cvv):
+    # Placeholder for card validation logic
+    if len(card_number) == 16 and len(cvv) == 3:
+        return True
+    else:
+        return False    
+    
+def calculate_tax(amount, tax_rate):
+    # Placeholder for tax calculation logic
+    tax = amount * tax_rate
+    return tax
+
+def wrong_Payment(amount,customer):
+    # Placeholder for tax calculation logic
+    tax = amount 
+    return tax

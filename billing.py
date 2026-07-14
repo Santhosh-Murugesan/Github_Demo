@@ -8,4 +8,14 @@ def process_payment(amount, card_number, expiration_date, cvv):
         return False
     
 
-    
+def generate_invoice(amount, username):
+    # Placeholder for invoice generation logic
+    invoice = f"Invoice {username}: ${amount:.2f}"
+    return invoice  
+
+def refund_payment(transaction_id): 
+    # Placeholder for refund processing logic
+    if transaction_id:
+        return False
+    else:
+        return True

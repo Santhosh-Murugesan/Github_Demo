@@ -31,3 +31,8 @@ def calculate_tax(amount, tax_rate):
     # Placeholder for tax calculation logic
     tax = amount * tax_rate
     return tax
+
+def wrong_Payment(amount,customer):
+    # Placeholder for tax calculation logic
+    tax = amount 
+    return tax
